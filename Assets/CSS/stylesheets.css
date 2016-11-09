@@ -1,0 +1,63 @@
+/*noinspection ALL*/
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+#contentGame{
+    width: 70%;
+    height: 80%;
+    top: 20%;
+    position: fixed;
+}
+.buttonGame{
+    font-family: "Roboto script=latin rev=2";
+    font-style: normal;
+    font-size: 60pt;
+    color:white;
+    height: 50%;
+    width: 50%;
+    float:left;
+    text-align: center;
+}
+
+#stBtn{
+    background-color: green;
+}
+
+#ndBtn{
+    background-color: red;
+}
+
+#rdBtn{
+    background-color: yellow;
+}
+
+#thBtn{
+    background-color: cornflowerblue;
+}
+
+/*SCORE*/
+/*noinspection ALL*/
+#contentScore{
+    width: 100%;
+    height: 20%;
+    top: 0;
+    float: left;
+    margin: 0;
+    position: absolute;
+}
+
+/*RANKING*/
+/*noinspection ALL*/
+#contentRanking{
+    width: 30%;
+    height: 80%;
+    top: 20%;
+    right: 0px;
+    position: fixed;
+    float: right;
+    margin: 0px;
+}
